@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { MenuItem } from '../menu-item';
+import MenuItem from '../menu-item';
 import './directory.styles.scss';
 
 class Directory extends Component{
@@ -11,7 +11,7 @@ class Directory extends Component{
                     title: 'hats',
                     imageUrl: 'https://www.wholesaler-hats.com/upfile/product/custom-embroidery-snapback-hats,design-snapback-hats_4.jpg',
                     id: 1,
-                    linkUrl: 'shop/hats'
+                    linkUrl: 'hats'
                   },
                   {
                     title: 'jackets',
@@ -47,8 +47,8 @@ class Directory extends Component{
         return (
             <div className='directory-menu'>
             {
-                this.state.sections.map(({title,id,imageUrl, size}) => 
-                    <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+                this.state.sections.map(({id, ...otherSectionProps}) => 
+                    <MenuItem key={id} {...otherSectionProps} />
                 )
             }
             </div>
