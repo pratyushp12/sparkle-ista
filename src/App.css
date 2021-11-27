@@ -2,5 +2,10 @@ body {
   font-family: "Acme", sans-serif;
   font-family: "Fjalla One", sans-serif;
   font-family: "Merienda", cursive;
-  padding: 20px 60px;
+  padding: 10px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
