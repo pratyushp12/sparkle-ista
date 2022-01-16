@@ -4,7 +4,7 @@ const INITIAL_STATE = {
             title: 'hats',
             imageUrl: 'https://www.wholesaler-hats.com/upfile/product/custom-embroidery-snapback-hats,design-snapback-hats_4.jpg',
             id: 1,
-            linkUrl: 'hats'
+            linkUrl: 'shop/hats'
           },
           {
             title: 'jackets',
