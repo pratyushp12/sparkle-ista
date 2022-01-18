@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { addItem, clearItemFromCart, removeItem } from '../../redux/cart/cart.action';
 import './checkout-item.styles.scss';
 
+
 const CheckoutItem = ({cartItem, clearItem, removeItem, addItem})=>{
     const {name,imageUrl,price,quantity} = cartItem;
     return (
@@ -18,7 +19,6 @@ const CheckoutItem = ({cartItem, clearItem, removeItem, addItem})=>{
         </span>
         <span className='price'>{price}</span>
         <span className='remove-button' onClick={()=>clearItem(cartItem)}>&#10005;</span>
-        
     </div>
     )
 }
