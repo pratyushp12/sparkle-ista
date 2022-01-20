@@ -209,7 +209,7 @@ const SHOP_DATA = {
         {
           id: 30,
           name: 'Sweatshirt',
-          imageUrl: 'https://image.sportsmansguide.com/adimgs/l/1/121077i12_ts.jpg',
+          imageUrl: 'https://image.sportsmansguide.com/adimgs/l/1/121077i12_ts.jpg?__cf_chl_jschl_tk__=t3ugKe.sO0v1FWJJ51rxxjXaqmwK9pwICFRuyODqxzI-1642596857-0-gaNycGzNCf0',
           price: 325
         },
         {
